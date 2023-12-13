@@ -1,0 +1,93 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.messageTop {
+  display: flex;
+}
+
+.messageImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.messageText {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #1877f2;
+  color: white;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageImage {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: white;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.messageBottom {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+
+
+.message.own .messageText {
+  background-color: rgb(245, 241, 241);
+  color: black;
+}
+
+.chat-sender {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  height: 3.5rem;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  margin-top: auto;
+}
+.chat-sender > input {
+  height: 70%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  padding: 0px 15px 0px 15px;
+}
+.chat-sender > div:nth-of-type(1) {
+  background: rgb(233, 233, 233);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+}
+.chat-sender > div {
+  height: 70%;
+  padding: 0px 15px 0px 15px;
+}
+
+.user-friend {
+  margin: 16px;
+}
+
+.user-friend:hover {
+  background: #80808038;
+  cursor: pointer;
+}
