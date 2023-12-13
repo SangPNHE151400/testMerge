@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://building-management-system-production.up.railway.app'
